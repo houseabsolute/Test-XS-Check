@@ -3,7 +3,7 @@ package Test::XS::Check;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Test2::API qw( context );
 use XS::Check 0.07;
