@@ -7,7 +7,8 @@ requires "warnings" => "0";
 on 'test' => sub {
   requires "ExtUtils::MakeMaker" => "0";
   requires "File::Spec" => "0";
-  requires "Test::More" => "0.96";
+  requires "Test2::V0" => "0";
+  requires "Test::More" => "1.302015";
 };
 
 on 'test' => sub {
@@ -44,6 +45,5 @@ on 'develop' => sub {
   requires "Test::Synopsis" => "0";
   requires "Test::Vars" => "0.009";
   requires "Test::Version" => "2.05";
-  requires "blib" => "1.01";
   requires "perl" => "5.006";
 };
