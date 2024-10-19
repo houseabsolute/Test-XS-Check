@@ -59,3 +59,4 @@ This module exports one subroutine on request.
 Given a path to an XS file, this subroutine will run that file through
 L<XS::Check>. If any XS issues are found, the test fails and the problems are
 emitted as diagnostics. If no issues are found, the test passes.
+
