@@ -16,7 +16,7 @@ stages:
       debug: true
       include_threads: true
       test_xt: true
-      use_default_perls: true
+      from_perl: "5.10"
 
   - template: templates/helpers/macos.yml@ci-perl-helpers
     parameters:
