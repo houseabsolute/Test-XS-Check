@@ -36,7 +36,7 @@ sub xs_ok {
 
 __END__
 
-=head2 SYNOPSIS
+=head1 SYNOPSIS
 
     use Test2::V0;
     use Test::XS::Check qw( xs_ok );
@@ -45,16 +45,16 @@ __END__
 
     done_testing();
 
-=head2 DESCRIPTION
+=head1 DESCRIPTION
 
 This module wraps Ben Bullock's L<XS::Check> module in a test module that you
 can incorporate into your distribution's test suite.
 
-=head2 EXPORTS
+=head1 EXPORTS
 
 This module exports one subroutine on request.
 
-=head3 xs_ok($path)
+=head2 xs_ok($path)
 
 Given a path to an XS file, this subroutine will run that file through
 L<XS::Check>. If any XS issues are found, the test fails and the problems are
